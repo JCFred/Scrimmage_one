@@ -1,0 +1,55 @@
+html, body{
+  display: flex;
+  justify-content: space-around;
+  background-color: #4098b4;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-start;
+}
+button{
+  background-color: #e4c540;
+  font-size: 20px;
+}
+.searchDiv {
+  margin: 20px;
+  width: 50%;
+  height: 350px;
+  border: 5px dotted black;
+  padding: 8px;
+  background-color: #d2d171;
+}
+.bookBox{
+  margin: 20px;
+  border: 5px solid black;
+  padding: 15px;
+  width: 500px;;
+  display: flex;
+  height: 350px;
+  flex-direction: column;
+}
+.infoBox{
+  border: 2px solid black;
+  display: flex;
+  height: a:
+}
+.bookCover{
+  margin-right: 15px;
+  /*width: 256px;
+  height: 300px;*/
+}
+
+.descript{
+  margin-top: -10px;
+}
+.titleFont{
+  font-size: 2em;
+  margin: 2.5px;
+}
+.authorFont{
+  font-size: 1.5em;
+  margin: 2.5px;
+}
+.fontOne{
+  font-size: 1.1em;
+  margin-bottom: 0px;
+}
