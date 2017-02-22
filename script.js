@@ -25,6 +25,18 @@ $('#buttonAuthor').click(function(){
   })
 })
 
+// $('#buttonAuthor').click(function(){
+//   let authorInput = $('#bookAuthor').val();
+//   var $query = $.get('https://www.googleapis.com/books/v1/volumes?q=author:' + authorInput);
+//   $query.done((data) => {
+//     if($query.status !== 200){
+//       return;
+//     }``
+//     console.log(data);
+//     display(data);
+//   })
+// })
+
 function display(search) {
   $('#bookDisplay').empty();
   let result = search.items;
